@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>An Phú Mirror</title>
+<meta name="description" content="Nhà sản xuất gương LED, gương nhà tắm, gương toàn thân, gương trang trí và gia công cắt kính CNC.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="products">
+<div id="site-header"></div>
+<main>
+<section class="pbanner"><div class="container">
+  <div class="crumbs"><a href="index.html" data-i18n="nav.home"></a><span>/</span><span data-i18n="pg.products"></span></div>
+  <h1 id="pbTitle" data-i18n="pg.products"></h1><p data-i18n="pg.products.d"></p>
+</div></section>
+
+<section class="section alt" style="padding-top:48px"><div class="container shop">
+  <aside class="side">
+    <h4 data-i18n="flt.search"></h4><input class="inp" id="q" type="search" data-i18n-ph="search.ph">
+    <h4 data-i18n="flt.cat"></h4><div id="catFilters"></div>
+    <h4 data-i18n="flt.sort"></h4><select class="inp" id="sort"><option value="def" data-i18n="sort.def"></option><option value="hot" data-i18n="sort.hot"></option><option value="az" data-i18n="sort.az"></option></select>
+    <h4>LED</h4><label class="chk"><input type="checkbox" id="ledOnly"><span data-i18n="flt.led"></span></label>
+    <button class="btn btn-outline btn-sm" id="reset" type="button" style="margin-top:1rem;width:100%;justify-content:center" data-i18n="flt.reset"></button>
+    <div class="help-box"><b data-i18n="flt.help"></b><br><span>(+84) 93 874 8979</span><a class="btn btn-gold btn-sm" href="contact.html" data-i18n="btn.quote"></a></div>
+  </aside>
+  <div><div class="shop-top"><b id="pCount"></b></div><div class="pgrid" id="pGrid"></div><div class="empty" id="empty" data-i18n="search.empty"></div></div>
+</div></section>
+
+</main>
+<div id="site-footer"></div>
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
